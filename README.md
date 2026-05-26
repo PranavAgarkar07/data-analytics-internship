@@ -4,13 +4,13 @@
 
 ## Tasks
 
-| # | Folder | Description |
-|---|--------|-------------|
-| 1 | `01-data-wrangling` | Data profiling, cleaning, missing value treatment, feature engineering |
-| 2 | `02-exploratory-analysis` | EDA with visualizations and statistical summaries |
-| 3 | `03-deep-dive-and-dashboard` | Deep analysis + interactive dashboard |
-| 4 | `04-storytelling-and-stats` | Statistical inference and data storytelling |
-| 5 | `05-capstone-portfolio` | End-to-end capstone project |
+| # | Folder | Description | Status |
+|---|--------|-------------|--------|
+| 1 | `01-data-wrangling` | Data profiling, cleaning, missing value treatment, feature engineering | ✅ |
+| 2 | `02-exploratory-analysis` | EDA with visualizations and statistical summaries | |
+| 3 | `03-deep-dive-and-dashboard` | Deep analysis + interactive dashboard | |
+| 4 | `04-storytelling-and-stats` | Statistical inference and data storytelling | |
+| 5 | `05-capstone-portfolio` | End-to-end capstone project | |
 
 ## Dataset
 
