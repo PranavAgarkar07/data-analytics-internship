@@ -1,0 +1,104 @@
+======================================================================
+TASK 3: DEEP-DIVE ANALYSIS & INTERACTIVE DASHBOARDING
+Dataset: retail_store_sales_clean.csv
+======================================================================
+
+DATA OVERVIEW
+-------------
+Rows: 11,362
+Columns: 17
+Date Range: 2022-01-01 to 2025-01-18
+Nulls: 0 (dataset already cleaned)
+
+======================================================================
+CORE KPIs
+---------
+Total Revenue:       $1,472,998.50
+Avg Order Value:     $129.64
+Total Orders:        11,362
+Unique Customers:    25
+Avg Quantity/Order:  5.54
+Discount Rate:       33.5% of orders had a discount
+
+Revenue by Location:
+  In-store       : $723,567.50
+  Online         : $749,431.00
+
+Revenue by Category:
+  Butchers                                : $197,426.00
+  Electric household essentials           : $192,441.50
+  Beverages                               : $187,978.50
+  Furniture                               : $186,527.00
+  Food                                    : $184,645.00
+  Computers and electric accessories      : $180,902.50
+  Patisserie                              : $172,330.50
+  Milk Products                           : $170,747.50
+
+======================================================================
+DEEP-DIVE: SEGMENTATION ANALYSIS
+======================================================================
+
+1. CATEGORY PERFORMANCE
+                                     Revenue     AOV  Orders  Discount_Usage
+Category                                                                    
+Butchers                            197426.0  138.93    1421            0.34
+Electric household essentials       192441.5  133.92    1437            0.33
+Beverages                           187978.5  131.73    1427            0.33
+Furniture                           186527.0  127.76    1460            0.34
+Food                                184645.0  129.48    1426            0.31
+Computers and electric accessories  180902.5  129.49    1397            0.34
+Patisserie                          172330.5  125.88    1369            0.34
+Milk Products                       170747.5  119.82    1425            0.34
+
+2. LOCATION x CATEGORY CROSS-SEGMENT
+                                              Revenue  Orders     AOV
+Location Category                                                    
+In-store Beverages                            93753.5     711  131.86
+         Butchers                             97626.0     713  136.92
+         Computers and electric accessories   82653.5     652  126.77
+         Electric household essentials        92338.5     700  131.91
+         Food                                 90613.0     713  127.09
+         Furniture                            94896.0     738  128.59
+         Milk Products                        85582.5     709  120.71
+         Patisserie                           86104.5     681  126.44
+Online   Beverages                            94225.0     716  131.60
+         Butchers                             99800.0     708  140.96
+         Computers and electric accessories   98249.0     745  131.88
+         Electric household essentials       100103.0     737  135.82
+         Food                                 94032.0     713  131.88
+         Furniture                            91631.0     722  126.91
+         Milk Products                        85165.0     716  118.95
+         Patisserie                           86226.0     688  125.33
+
+3. PAYMENT METHOD ANALYSIS
+                 Revenue  Orders     AOV
+Payment Method                          
+Cash            513676.0    3917  131.14
+Credit Card     481135.0    3729  129.03
+Digital Wallet  478187.5    3716  128.68
+
+4. DISCOUNT IMPACT
+                   Revenue  Orders     AOV  Avg_Qty
+Discount Applied                                   
+False             976118.0    7561  129.10     5.54
+True              496880.5    3801  130.72     5.53
+
+5. MONTHLY TREND (First 6 months)
+   Year  Month Month_Name  Revenue  Orders     AOV
+0  2022      1        Jan  50525.0     349  144.77
+1  2022      2        Feb  41579.5     305  136.33
+2  2022      3        Mar  38566.0     320  120.52
+3  2022      4        Apr  38650.0     319  121.16
+4  2022      5        May  38752.5     302  128.32
+5  2022      6        Jun  40846.0     309  132.19
+======================================================================
+
+Files saved:
+  data/retail_store_clean.csv          - Cleaned dataset (for Google Sheets)
+  reports/kpi_summary.csv             - KPI table
+  reports/category_performance.csv     - Category performance
+  reports/location_category.csv        - Location x Category segments
+  reports/payment_segments.csv         - Payment method analysis
+  reports/monthly_trend.csv            - Monthly trends
+  reports/discount_impact.csv          - Discount analysis
+======================================================================

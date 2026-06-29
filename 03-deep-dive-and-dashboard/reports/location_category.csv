@@ -1,0 +1,17 @@
+Location,Category,Revenue,Orders,AOV
+In-store,Beverages,93753.5,711,131.86
+In-store,Butchers,97626.0,713,136.92
+In-store,Computers and electric accessories,82653.5,652,126.77
+In-store,Electric household essentials,92338.5,700,131.91
+In-store,Food,90613.0,713,127.09
+In-store,Furniture,94896.0,738,128.59
+In-store,Milk Products,85582.5,709,120.71
+In-store,Patisserie,86104.5,681,126.44
+Online,Beverages,94225.0,716,131.6
+Online,Butchers,99800.0,708,140.96
+Online,Computers and electric accessories,98249.0,745,131.88
+Online,Electric household essentials,100103.0,737,135.82
+Online,Food,94032.0,713,131.88
+Online,Furniture,91631.0,722,126.91
+Online,Milk Products,85165.0,716,118.95
+Online,Patisserie,86226.0,688,125.33

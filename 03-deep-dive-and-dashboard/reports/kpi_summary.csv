@@ -1,0 +1,2 @@
+Total_Revenue,AOV,Total_Orders,Total_Customers,Avg_Quantity,Discount_Rate,Online_vs_InStore,Revenue_by_Category,Revenue_by_Location
+1472998.5,129.64253652525963,11362,25,5.535029044182362,33.45361732089421,"{'Online': 5745, 'In-store': 5617}","{'Butchers': 197426.0, 'Electric household essentials': 192441.5, 'Beverages': 187978.5, 'Furniture': 186527.0, 'Food': 184645.0, 'Computers and electric accessories': 180902.5, 'Patisserie': 172330.5, 'Milk Products': 170747.5}","{'In-store': 723567.5, 'Online': 749431.0}"
